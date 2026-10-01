@@ -59,7 +59,7 @@
     "date": "2027-03",
     "period": "Spring 2027",
     "title": "Integrate and demonstrate",
-    "description": "Integrate live video, thermal imaging, and FPGA functionality, then demonstrate a simulated emergency-response mission.",
+    "description": "Integrate live video and FPGA functionality, then demonstrate a simulated emergency-response mission.",
     "status": "planned",
     "draft": true
   }

@@ -150,6 +150,26 @@ body.modal-open { overflow: hidden; }
   .milestone { grid-template-columns: 1fr 2fr; }
   .hero-wireframe { width: var(--hero-graphic); right: var(--zero); top: var(--hero-graphic-top); }
 }
+/* About page: a tighter, denser reading layout. */
+.about-page .page-heading { min-height: 0; padding-bottom: var(--space-7); }
+.about-page .page-heading h1 { font-size: clamp(3rem, 7vw, 6rem); }
+.about-page .section { padding-block: var(--space-6); }
+.about-page .page-heading + .section { padding-top: 0; }
+.about-page main > .section:last-of-type { padding-bottom: var(--space-9); }
+.brief-grid { display: grid; gap: var(--space-5); }
+.brief-grid .info-panel { display: flex; flex-direction: column; gap: var(--space-4); }
+.brief-grid .info-panel .eyebrow { margin-bottom: var(--zero); }
+.brief-grid .info-panel h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); }
+.brief-grid .info-panel p:last-child { color: var(--muted); }
+.about-page .requirements { margin-top: var(--space-6); }
+.about-page .requirements li { min-height: 3.5rem; gap: var(--space-3); }
+.about-page .requirements li::before { content: ""; flex: none; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--hero-accent); }
+.about-page .feature-grid { margin-top: var(--space-6); }
+.about-page .feature-grid .number { margin-bottom: var(--space-4); }
+@media (min-width: 768px) {
+  .brief-grid { grid-template-columns: 1fr 1fr; }
+  .about-page .requirements { grid-template-columns: repeat(4, 1fr); }
+}
 /* Respect motion preferences for all transitions and decorative animation. */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

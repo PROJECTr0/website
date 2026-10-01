@@ -25,10 +25,10 @@
   },
   {
     "id": "sensing",
-    "title": "FPV Video & Sensing",
-    "summary": "See the scene, through smoke and at night.",
+    "title": "FPV Video",
+    "summary": "See the scene as it unfolds.",
     "details": [
-      "Low-latency live video for the pilot, paired with thermal imaging to find people and hotspots in smoke and darkness."
+      "Low-latency live video that gives the pilot and responders a clear, real-time view of the scene."
     ]
   },
   {
@@ -36,7 +36,7 @@
     "title": "Onboard Compute & Autonomy",
     "summary": "Detection, computed onboard.",
     "details": [
-      "Onboard FPGA processing that highlights people, vehicles, and hotspots in the live view and marks their locations for incident command."
+      "Onboard FPGA processing that highlights people, vehicles, and hazards in the live view and marks their locations for incident command."
     ]
   },
   {

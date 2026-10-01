@@ -3,7 +3,7 @@
 - Gallery images: about **1600px wide**.
 - Headshots: about **600 × 600px square**.
 - Keep each image **under 300KB** where practical.
-- Use **kebab-case** filenames: `hull-v1-render.jpg`, not `Hull Render FINAL.jpg`.
+- Use **kebab-case** filenames: `frame-v1-render.jpg`, not `Frame Render FINAL.jpg`.
 - Use **JPG** for photos and **PNG** for renders needing transparency.
 - Put photos in `gallery/` and portraits in `team/`, then edit the matching file in `data/`.
 - Describe the image in `alt`; write the date and context in `caption`.

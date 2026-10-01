@@ -1,4 +1,4 @@
-# HARD — High-speed Amphibious Responsive Drone
+# HARD — High-speed Aerial Response Drone
 
 A public project website for Engineering Design VII, Department of Electrical and Computer Engineering, Stevens Institute of Technology, Class of 2027. Research and concept phase, Fall 2026. No advisor or sponsor is confirmed yet.
 
@@ -54,14 +54,14 @@ To publish a change, save the file and commit it to `main` on GitHub. The websit
 ## Add a gallery photo
 
 1. Prepare a photo using the guidance in `assets/img/README.md`.
-2. Put it in `assets/img/gallery/`, for example `hull-v1-render.jpg`.
+2. Put it in `assets/img/gallery/`, for example `frame-v1-render.jpg`.
 3. Add this object to `data/gallery.json`:
 
    ```json
    {
-     "src": "assets/img/gallery/hull-v1-render.jpg",
-     "alt": "Side view of the first tail-sitter hull showing the sealed electronics compartment",
-     "caption": "Hull concept v1, October 2026",
+     "src": "assets/img/gallery/frame-v1-render.jpg",
+     "alt": "Top view of the first frame concept showing the camera and electronics mounts",
+     "caption": "Frame concept v1, October 2026",
      "category": "cad"
    }
    ```
@@ -98,7 +98,7 @@ Subsystems live entirely in `data/subsystems.json`. Each needs a unique, kebab-c
 
 The supplied problem, approach, timeline, and bios are working copy. Static draft passages have `<!-- DRAFT: team to review -->` immediately above them. Data entries use `"draft": true`; JavaScript inserts that exact HTML comment immediately before each draft bio or milestone in the rendered DOM. Use browser developer tools to inspect those comments. JSON must remain valid, so do not put HTML comments into JSON files. When approved, remove a static draft comment or set the entry’s `draft` to `false`.
 
-Subsystem text preserves the team’s provided research architecture. Validate component selections, control-module assumptions, RF depth figures, sealing processes, and performance targets before treating them as proven specifications. The site identifies these as research-stage assumptions. Precedent descriptions on About link to Rutgers and the AquaMAV research paper.
+Component selections and performance targets are not published yet; add them once the team has validated them. Precedent descriptions on About link to the Chula Vista Police Department drone program and the BRINC Responder product page.
 
 ## Add a page
 

@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" fill="none">
-  <g stroke="#4da6ff" stroke-width="1" opacity=".6" transform="rotate(-24 420 350)">
-    <ellipse cx="420" cy="360" rx="280" ry="90" stroke-dasharray="4 12"/>
-    <ellipse cx="420" cy="360" rx="220" ry="68"/>
-    <path d="M420 70 466 172 458 470 420 562 382 470 374 172Z M420 70V562 M374 172 420 195 466 172 M382 470 420 453 458 470 M382 280 180 350 180 382 388 345 M458 280 660 350 660 382 452 345 M180 350 420 328 660 350 M180 382 420 364 660 382 M382 445 300 524 420 492 540 524 458 445"/>
-    <ellipse cx="420" cy="172" rx="46" ry="14"/><ellipse cx="420" cy="240" rx="43" ry="14"/><ellipse cx="420" cy="310" rx="40" ry="14"/><ellipse cx="420" cy="382" rx="39" ry="14"/><ellipse cx="420" cy="450" rx="38" ry="14"/>
-    <path d="M110 360H730 M420 30V620 M720 130V550 M708 130H732 M708 550H732" stroke-dasharray="5 9"/>
+  <g stroke="#4da6ff" stroke-width="1" opacity=".6" transform="rotate(-18 420 350)">
+    <circle cx="230" cy="160" r="118" stroke-dasharray="4 12"/><circle cx="610" cy="160" r="118" stroke-dasharray="4 12"/><circle cx="230" cy="540" r="118" stroke-dasharray="4 12"/><circle cx="610" cy="540" r="118" stroke-dasharray="4 12"/>
+    <circle cx="230" cy="160" r="24"/><circle cx="610" cy="160" r="24"/><circle cx="230" cy="540" r="24"/><circle cx="610" cy="540" r="24"/>
+    <path d="M230 160 380 300 M610 160 460 300 M230 540 380 400 M610 540 460 400 M218 148 368 288 M242 172 392 312 M622 148 472 288 M598 172 448 312 M218 552 368 412 M242 528 392 388 M622 552 472 412 M598 528 448 388"/>
+    <path d="M370 270H470V430H370Z M384 284H456V416H384Z M394 270 404 236H436L446 270 M404 236H436V222H404Z"/>
+    <path d="M404 222 300 120 M436 222 540 120" stroke-dasharray="3 7"/>
+    <path d="M90 350H750 M420 30V670 M740 160V540 M728 160H752 M728 540H752" stroke-dasharray="5 9"/>
   </g>
-  <g fill="#b7c8d9" font-family="monospace" font-size="12"><text x="605" y="115">CONCEPT / 001</text><text x="605" y="136">NOT TO SCALE</text><text x="620" y="605">AIR ↔ WATER</text></g>
+  <g fill="#b7c8d9" font-family="monospace" font-size="12"><text x="605" y="115">CONCEPT / 001</text><text x="605" y="136">NOT TO SCALE</text><text x="600" y="645">FPV · THERMAL · RTH</text></g>
 </svg>

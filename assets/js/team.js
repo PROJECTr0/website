@@ -16,7 +16,7 @@
       card.append(portrait, element('h2', '', member.name), element('p', 'eyebrow', member.role));
       const url = safeLink(member.linkedin);
       if (url) {
-        const link = element('a', 'profile-link', 'LinkedIn ↗');
+        const link = element('a', 'profile-link arrow-link', 'LinkedIn');
         link.href = url;
         link.setAttribute('aria-label', `${member.name} on LinkedIn`);
         card.append(link);

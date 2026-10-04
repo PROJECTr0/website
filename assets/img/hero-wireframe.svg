@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" fill="none">
-  <g stroke="#4da6ff" stroke-width="1" opacity=".6" transform="rotate(-18 420 350)">
+  <g stroke="#b4b9bd" stroke-width="1" opacity=".6" transform="rotate(-18 420 350)">
     <circle cx="230" cy="160" r="118" stroke-dasharray="4 12"/><circle cx="610" cy="160" r="118" stroke-dasharray="4 12"/><circle cx="230" cy="540" r="118" stroke-dasharray="4 12"/><circle cx="610" cy="540" r="118" stroke-dasharray="4 12"/>
     <circle cx="230" cy="160" r="24"/><circle cx="610" cy="160" r="24"/><circle cx="230" cy="540" r="24"/><circle cx="610" cy="540" r="24"/>
     <path d="M230 160 380 300 M610 160 460 300 M230 540 380 400 M610 540 460 400 M218 148 368 288 M242 172 392 312 M622 148 472 288 M598 172 448 312 M218 552 368 412 M242 528 392 388 M622 552 472 412 M598 528 448 388"/>
@@ -7,5 +7,5 @@
     <path d="M404 222 300 120 M436 222 540 120" stroke-dasharray="3 7"/>
     <path d="M90 350H750 M420 30V670 M740 160V540 M728 160H752 M728 540H752" stroke-dasharray="5 9"/>
   </g>
-  <g fill="#b7c8d9" font-family="monospace" font-size="12"><text x="605" y="115">CONCEPT / 001</text><text x="605" y="136">NOT TO SCALE</text><text x="600" y="645">FPV · THERMAL · RTH</text></g>
+  <g fill="#adb2b6" font-family="monospace" font-size="12"><text x="605" y="115">CONCEPT / 001</text><text x="605" y="136">NOT TO SCALE</text><text x="600" y="645">FPV · THERMAL · RTH</text></g>
 </svg>

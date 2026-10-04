@@ -1,22 +1,22 @@
 /* Palette: edit these semantic colors to restyle the entire site. */
 :root {
   color-scheme: dark;
-  --canvas: #080912;
-  --hero-canvas: #080912;
-  --surface: #11131e;
-  --text: #f4f5f8;
-  --muted: #a9adba;
-  --accent: #0b4f8a;
-  --accent-bright: #69b8ff;
-  --line: #282b39;
-  --nav-bg: #080912f2;
-  --mesh: #0b4f8a;
-  --mesh-deep: #07345f;
-  --overlay: #03040ae8;
-  --hero-text: #f4f5f8;
-  --hero-muted: #a9adba;
-  --hero-line: #323646;
-  --hero-accent: #8ac9ff;
+  --canvas: #0b0c0e;
+  --hero-canvas: #0b0c0e;
+  --surface: #16181b;
+  --text: #f1f2f2;
+  --muted: #a4a8ac;
+  --accent: #50555b;
+  --accent-bright: #c7cbce;
+  --line: #2d3034;
+  --nav-bg: #0b0c0ef2;
+  --mesh: #50555b;
+  --mesh-deep: #33373b;
+  --overlay: #060708e8;
+  --hero-text: #f1f2f2;
+  --hero-muted: #a4a8ac;
+  --hero-line: #45494e;
+  --hero-accent: #b4b9bd;
   --transparent: transparent;
   /* Type: system fonts only; sizes respond without a build step. */
   --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -51,7 +51,7 @@
   --space-9: 6rem;
   --space-10: 8rem;
   --gutter: clamp(1.25rem, 5vw, 4rem);
-  --section-space: clamp(4rem, 9vw, 8rem);
+  --section-space: clamp(3rem, 6vw, 5rem);
   --content-width: 75rem;
   --copy-width: 45rem;
   --hero-copy: 58rem;

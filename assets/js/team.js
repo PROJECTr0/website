@@ -10,14 +10,9 @@
       const card = element('article', 'team-card reveal');
       card.dataset.member = member.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
       const portrait = element('div', 'portrait');
-      const parts = member.name.replace(/"[^"]*"/g, '').trim().split(/\s+/);
-      const initials = parts[0][0] + (parts.length > 1 ? parts.at(-1)[0] : '');
-      const fallback = element('span', 'initials', initials);
-      fallback.setAttribute('aria-hidden', 'true');
-      fallback.hidden = true;
-      const image = localImage(member.photo, `${member.name} — team portrait`, () => { fallback.hidden = false; });
+      const image = localImage(member.photo, `${member.name} — team portrait`);
       image.loading = 'eager';
-      portrait.append(fallback, image);
+      portrait.append(image);
       card.append(portrait, element('h2', '', member.name), element('p', 'eyebrow', member.role));
       const url = safeLink(member.linkedin);
       if (url) {
@@ -29,6 +24,10 @@
       container.append(card);
     });
     if (!members.length) container.append(element('p', 'muted', 'Team updates are coming soon.'));
+    container.setAttribute('aria-busy', 'false');
     document.dispatchEvent(new Event('hard:content'));
-  } catch (error) { showError(container, error); }
+  } catch (error) {
+    showError(container, error);
+    container.setAttribute('aria-busy', 'false');
+  }
 })();

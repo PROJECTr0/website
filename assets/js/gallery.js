@@ -50,7 +50,7 @@
     filtered = items.filter(item => category === 'all' || item.category === category);
     grid.replaceChildren();
     filtered.forEach((item, index) => {
-      const figure = element('figure');
+      const figure = element('figure', 'reveal');
       const button = element('button', 'gallery-open');
       button.type = 'button';
       button.setAttribute('aria-label', `Enlarge: ${item.caption}`);
@@ -62,6 +62,7 @@
     count.textContent = `${filtered.length} ${filtered.length === 1 ? 'entry' : 'entries'} · ${category === 'all' ? 'All categories' : category.toUpperCase()}`;
     if (!filtered.length) grid.append(element('p', 'muted', 'No images in this category yet. Check back as the project develops.'));
     filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === category)));
+    document.dispatchEvent(new Event('hard:content'));
   }
 
   filters.forEach(button => button.addEventListener('click', () => render(button.dataset.category)));

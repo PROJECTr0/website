@@ -1,4 +1,4 @@
-# Images for HARD
+# Images for Rnaught
 
 - Gallery images: about **1600px wide**.
 - Headshots: about **600 × 600px square**.

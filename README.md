@@ -1,14 +1,16 @@
-# HARD — High-speed Aerial Response Drone
+# Rnaught (R₀) — High-speed Aerial Response Drone
+
+**Rnaught**, pronounced "R naught" and written **R₀** (R with a subscript zero), is our team name.
 
 A public project website for Engineering Design VII, Department of Electrical and Computer Engineering, Stevens Institute of Technology, Class of 2027. Research and concept phase, Fall 2026. No advisor or sponsor is confirmed yet.
 
-**Website:** https://lennyyanza.github.io/teamhard/<br>
-**Repository:** https://github.com/lennyyanza/teamhard
+**Website:** https://lennyyanza.github.io/rnaught/<br>
+**Repository:** https://github.com/lennyyanza/rnaught
 
 ## Start here: preview on your computer
 
 1. Download this repository with GitHub’s **Code → Download ZIP**, then unzip it (or clone it with Git).
-2. Open Terminal in the `hard-drone` folder. Python 3 must be installed.
+2. Open Terminal in your local repository folder. Python 3 must be installed.
 3. Run:
 
    ```sh
@@ -139,9 +141,9 @@ This repository is public. In **Settings → Pages**, the source is **Deploy fro
 
 After a commit reaches `main`, GitHub runs its Pages deployment. Check the repository’s **Actions** tab or **Settings → Pages** for status. The live address is:
 
-https://lennyyanza.github.io/teamhard/
+https://lennyyanza.github.io/rnaught/
 
-All local references are relative so the `/teamhard/` project path works. If the owner or repository name changes, update canonical and Open Graph URLs in each HTML file and the repository links in the footer and contact page.
+All local references are relative so the `/rnaught/` project path works. If the owner or repository name changes, update canonical and Open Graph URLs in each HTML file and the repository links in the footer and contact page.
 
 ## Before publishing an update
 

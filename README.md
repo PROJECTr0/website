@@ -1,6 +1,6 @@
-# Rnaught (R₀) — High-speed Aerial Response Drone
+# R₀ — High-speed Aerial Response Drone
 
-**Rnaught**, pronounced "R naught" and written **R₀** (R with a subscript zero), is our team name.
+**R₀** (R with a subscript zero) represents the zeroth response: a drone sent ahead to help first responders understand a scene before they arrive.
 
 A public project website for Engineering Design VII, Department of Electrical and Computer Engineering, Stevens Institute of Technology, Class of 2027. Research and concept phase, Fall 2026. No advisor or sponsor is confirmed yet.
 

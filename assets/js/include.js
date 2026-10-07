@@ -7,7 +7,7 @@
     if (location.protocol === 'file:') {
       throw new Error('HARD local preview requires HTTP: run python3 -m http.server 8000 in the repository, then open http://localhost:8000. fetch() cannot load partials or JSON on file://.');
     }
-    const response = await fetch(path);
+    const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`Could not load ${path} (${response.status}).`);
     return json ? response.json() : response.text();
   }
@@ -131,6 +131,6 @@
     updateMotion();
   }
   setupHeroMotion();
-  includePartial('#site-header', 'partials/header.html');
-  includePartial('#site-footer', 'partials/footer.html');
+  includePartial('#site-header', 'partials/header.html?v=20261007-minimal');
+  includePartial('#site-footer', 'partials/footer.html?v=20261007-minimal');
 })();

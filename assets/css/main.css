@@ -62,6 +62,8 @@ p + p { margin-top: var(--space-5); }
 .hero-content a { pointer-events: auto; }
 .hero h1 { font-size: clamp(3.2rem, 8.5vw, 7.5rem); max-width: 69rem; line-height: 1.05; letter-spacing: -0.065em; }
 .hero h1 em { color: var(--hero-accent); font-style: normal; }
+.hero h1.hero-wordmark { font-size: clamp(7rem, 18vw, 16rem); font-weight: 300; font-style: italic; line-height: 1; letter-spacing: -0.07em; }
+.hero-wordmark sub { display: inline-block; font-size: 0.42em; font-style: normal; vertical-align: -0.18em; margin-left: 0.04em; }
 .hero .eyebrow, .hero .lead { color: var(--hero-muted); }
 .hero .lead { max-width: var(--copy-width); font-size: var(--text-lead); }
 .hero-meta { position: absolute; inset: auto var(--zero) var(--space-6); display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-3); font: var(--text-xs)/var(--leading-body) var(--mono); color: var(--hero-muted); }

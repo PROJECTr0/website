@@ -19,8 +19,8 @@
   --hero-accent: #b4b9bd;
   --transparent: transparent;
   /* Type: system fonts only; sizes respond without a build step. */
-  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --mono: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --mono: "Avenir Next", Avenir, "Segoe UI", sans-serif;
   --text-xs: 0.8125rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;

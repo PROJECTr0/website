@@ -33,10 +33,10 @@
   },
   {
     "id": "compute",
-    "title": "Onboard Compute & Autonomy",
-    "summary": "Detection, computed onboard.",
+    "title": "Ground-Computer SLAM",
+    "summary": "Scene mapping from one camera.",
     "details": [
-      "Onboard FPGA processing that highlights people, vehicles, and hazards in the live view and marks their locations for incident command."
+      "Monocular SLAM on a ground computer estimates camera motion and builds a 3D landmark map from the single FPV camera’s video. The operator controls the drone; the mapping software does not command flight."
     ]
   },
   {

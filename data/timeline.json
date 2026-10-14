@@ -11,7 +11,7 @@
     "date": "2026-10",
     "period": "Fall 2026",
     "title": "Refine the response concept",
-    "description": "Focus the high-speed FPV drone on stereo scene mapping, with synchronized cameras and SLAM running on a ground computer.",
+    "description": "Focus the operator-controlled, high-speed FPV drone on monocular scene mapping, with one camera and SLAM running on a ground computer.",
     "status": "complete",
     "draft": true
   },
@@ -19,7 +19,7 @@
     "date": "2026-09",
     "period": "Fall 2026",
     "title": "Design the airframe",
-    "description": "Develop and compare frame concepts for fast, stable FPV flight while carrying a stereo camera pair.",
+    "description": "Develop and compare frame concepts for fast, stable FPV flight while carrying a single FPV camera.",
     "status": "in-progress",
     "draft": true
   },
@@ -34,8 +34,8 @@
   {
     "date": "2026-11",
     "period": "Fall 2026",
-    "title": "Plan stereo capture and data link",
-    "description": "Select two cameras and an IMU; define FPGA capture timing, frame IDs, buffering, and transmission to the ground computer.",
+    "title": "Plan FPV capture and data link",
+    "description": "Select one FPV camera and a compatible receiver/capture interface; define calibration, frame timing, buffering, and video input to the ground computer.",
     "status": "planned",
     "draft": true
   },
@@ -43,7 +43,7 @@
     "date": "2026-12",
     "period": "Winter 2026",
     "title": "Simulate flight and failsafes",
-    "description": "Use simulation to estimate thrust, stability, and return-home behavior, and test the stereo SLAM data flow with recorded frames.",
+    "description": "Use simulation to estimate thrust, stability, and return-home behavior, and test the monocular SLAM data flow with recorded FPV video.",
     "status": "planned",
     "draft": true
   },
@@ -51,7 +51,7 @@
     "date": "2027-03",
     "period": "Spring 2027",
     "title": "Build the first prototype",
-    "description": "Assemble the airframe, propulsion system, stereo cameras, IMU, and FPGA for testing.",
+    "description": "Assemble the airframe, propulsion system, flight controller, single FPV camera, and control/video links for testing.",
     "status": "planned",
     "draft": true
   },
@@ -59,7 +59,7 @@
     "date": "2027-03",
     "period": "Spring 2027",
     "title": "Bench and flight testing",
-    "description": "Measure thrust, tune flight control, and verify synchronized frames, capture timestamps, and the data link during controlled flight.",
+    "description": "Measure thrust, tune flight control, and verify camera calibration, frame timing, and the video link during operator-controlled flight.",
     "status": "planned",
     "draft": true
   },
@@ -67,7 +67,7 @@
     "date": "2027-03",
     "period": "Spring 2027",
     "title": "Integrate and demonstrate",
-    "description": "Run stereo SLAM on the ground computer using paired camera frames and IMU data, then demonstrate a simulated emergency-response mission.",
+    "description": "Run monocular SLAM on the ground computer using FPV video from slow scene sweeps, then demonstrate an operator-controlled, simulated emergency-response mission.",
     "status": "planned",
     "draft": true
   }
